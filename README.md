@@ -12,7 +12,7 @@ To install the application, follow the below instructions
 			- username
 			- password
 			- database
-5. On your brower, open the link to the application (e.g http://127.0.0.1/techtest) depending on which folder you exctrated the project files to in your server
+5. On your brower, open the link to the application (e.g http://127.0.0.1/tempertest) depending on which folder you exctrated the project files to in your server
 6. You will get a login page, the credentials are as below:
 			- username: admin
 			- password: admin
