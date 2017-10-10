@@ -2,7 +2,7 @@
 This is my submission for the Tech Assessment Test For Temper Onboarding.
 It has been done using Codeigniter 3 PHP Framework
 
-#Installation
+# Installation
 To install the application, follow the below instructions
 1. Download the master .zip file and extract it to the root folder of your web server or any folder you may prefer to access it from.
 2. Create a database called 'tempertest' in your MySQL server
@@ -17,5 +17,5 @@ To install the application, follow the below instructions
 			- username: admin
 			- password: admin
 7. You will be directed to the dashboard page where the data is displayed
-#Enjoy browsing the application!
+# Enjoy browsing the application!
 
