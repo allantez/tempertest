@@ -15,4 +15,13 @@ class onboarding_model extends CI_Model{
         $result = $query->result();
         return $result;
     }
+
+    function get_data()
+    {
+        //pull data from db and group them
+        $sql = 'select onboarding_percentage, COUNT(onboarding_percentage) AS count from user_stats group by onboarding_percentage';
+        $query = $this->db->query($sql);
+        $result = $query->result();
+        return $result;
+    }
 }

@@ -58,4 +58,32 @@ class onboarding extends CI_Controller {
         $this->load->view('onboarding_view',$data);
         $this->load->view('layout/footer');
     }
+
+    public function data()
+    {
+        $data = $this->data->get_data();
+
+        $category = array();
+        $category['name'] = 'onboarding_percentage';
+
+        $series1 = array();
+        $series1['name'] = 'count';
+
+        foreach ($data as $row)
+        {
+            $category['data'][] = $row->onboarding_percentage;
+            $series1['data'][] = $row->count;
+        }
+
+        $result = array();
+        array_push($result,$category);
+        array_push($result,$series1);
+
+        print json_encode($result, JSON_NUMERIC_CHECK);
+
+        //highcharts view
+        $this->load->view('layout/header');
+        $this->load->view('onboarding_view',$data);
+        $this->load->view('layout/footer');
+    }
 }
