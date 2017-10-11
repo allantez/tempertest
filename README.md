@@ -2,6 +2,11 @@
 This is my submission for the Tech Assessment Test For Temper Onboarding.
 It has been done using Codeigniter 3 PHP Framework
 
+# Server Requirements
+- Apache 2
+- MySQL 5.x and above
+- PHP 5.6 and above
+
 # Installation
 To install the application, follow the below instructions
 1. Download the master .zip file and extract it to the root folder of your web server or any folder you may prefer to access it from.
